@@ -1,9 +1,10 @@
 import { Container, Todo, Hero, Quote } from './BaseStyles'
+import Nav from './Nav'
 
 function App() {
   return (
     <div>
-      <Todo smPadding="none">TODO: Nav</Todo>
+      <Nav />
 
       <Hero />
 
