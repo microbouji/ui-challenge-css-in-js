@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 
 export const bodyPadding = '1.75em'
 
@@ -15,7 +15,7 @@ export const Container = styled.div`
 
   ${({ mdPadding = null }) =>
     mdPadding &&
-    css`
+    `
       @media (min-width: 48em) {
         padding: ${padding[mdPadding]};
       }
