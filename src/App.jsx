@@ -1,4 +1,5 @@
 import { Container, Todo, Hero, Quote } from './BaseStyles'
+import Showcase from './Showcase'
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
 
       <Todo>TODO: Products</Todo>
 
-      <Todo>TODO: Showcase</Todo>
+      <Showcase />
 
       <Container>
         <Quote />
