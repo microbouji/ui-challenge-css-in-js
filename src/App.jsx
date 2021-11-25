@@ -1,6 +1,7 @@
 import { Container, Todo, Hero, Quote } from './BaseStyles'
 import Nav from './Nav'
 import Showcase from './Showcase'
+import ProductsSection from './ProductsSection'
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
 
       <Hero />
 
-      <Todo>TODO: Products</Todo>
+      <ProductsSection />
 
       <Showcase />
 
