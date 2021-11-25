@@ -1,4 +1,5 @@
 import { Container, Todo, Hero, Quote } from './BaseStyles'
+import ProductsSection from './ProductsSection'
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
 
       <Hero />
 
-      <Todo>TODO: Products</Todo>
+      <ProductsSection />
 
       <Todo>TODO: Showcase</Todo>
 
