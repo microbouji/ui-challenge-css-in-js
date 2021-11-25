@@ -87,7 +87,15 @@ export const Button = styled.button`
   transition: background-color 200ms;
 
   &:hover {
-    background-color: #252525;
+    background-color: ${(props) => (props.primary ? '#252525' : '#e5e5e5')};
+  }
+
+  @media (min-width: 48em) {
+    font-size: 1.375em;
+  }
+
+  @media (min-width: 80em) {
+    font-size: 1.5em;
   }
 `
 
